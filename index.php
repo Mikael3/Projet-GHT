@@ -1,7 +1,10 @@
+
 <!doctype html>
+
 <html lang="fr">
 
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -11,6 +14,7 @@
 </head>
 
 <body>
+
     <h1 class="h2g2">Groupement Hospitalier de Territoire des Pyrénées Ariègoises</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#" href="#"><img src="img/logo_ght.png" class="logo_max">
@@ -50,11 +54,20 @@
                         </a>
                     </li>
                 </ul>
+
             </div>
         </div>
+
     </nav>
+    </div>
+        <div class="visibleOnTab">
+        <br>
+    </div>    </div>
+        <div class="visibleOnTab">
+        <br>
+    </div>
   
-<div class="container-fluid nomarges">
+<div class="container-fluid nomarges visibleOnDesc">
         <div class="container-fluid wildWidth nomarges pose">
             <br>
             <!-- Nav pills -->
@@ -105,7 +118,7 @@
                         <br>
                         <br> - Développer ensemble la recherche et les activités de recherche et d’enseignement,
                         <br>
-                        <br> -Promouvoir la mise en place d’équipes médicales partagées permettant d’assurer une présence médicale sur l’ensemble du territoire.
+                        <br> -Promouvoir la mise en place d’équipes médicales partagées permettant d’assurer une présence médicale sur l’ensemble du territoire.</p>
                 </div>
                 <div id="menu1" class="container tab-pane fade">
                     <br>
@@ -120,7 +133,7 @@
                         <br>
                         <br> - La commission des soins
                         <br>
-                        <br> - Le comité des élus
+                        <br> - Le comité des élus</p>
                 </div>
                 <div id="menu2" class="container tab-pane fade">
                     <br>
@@ -135,7 +148,7 @@
             </div>
         </div>
 
-        <div class="container-fluid ">
+        <div class="container-fluid visibleOnDesc">
           <div class="col-10 offset-1 rounded carou mt-5 mb-5">
           <div id="demo" class="carousel slide" data-ride="carousel">
   
@@ -195,7 +208,7 @@
                     </div>
                   </div>
                 </div>
-            
+
             <a class="carousel-control-prev" href="#demo" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
@@ -216,7 +229,9 @@
             </div>
         </div> -->
     </div>
-    
+    <div class="visibleOnTab">
+        <br>
+    </div>
        
         <div id="collapse1" class="panel-collapse collapse in">
             <div class="panel-body">Les établissements publics parties à la présente convention établissent un projet médico-soignant partagé permettant aux patients du tenitoire un égal accès à des soins sécurisés et de qualité, grâce à une stratégie de prise en charge commune et graduée </div>
@@ -227,12 +242,16 @@
     </div>
     </div>
     </div>
+        <div class="visibleOnTab">
+        <br>
+    </div>
     <div class="container-fluid">
         <div class="row">
-            <div id="icones" class="col-md-2">
+            <div id="icones" class="col-sm-2 visibleOnDesc">
 
                 <div id="marche" class="media flexCol wildWidth">
                     <div class="mx-auto text-center wildWidth">
+                    <a href="http://www.chiva-chpo.fr/accueil-chiva-2/marches-publics.html" class="mx-auto">
                         <button type="button" class="btn boutonRond " data-toggle="modal" data-target="#myModal1">
                             <div class="boutonMarche">
                                 <i class="fas fa-handshake"></i>
@@ -242,27 +261,8 @@
                             Marchés Publics
                         </p>
                     </div>
-                    <div class="modal fade" id="myModal1" role="dialog">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4 class="modal-title">Marchés publics</h4>
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                </div>
-                                <div class="modal-body">
-                                    <p>
-                                        <h1>Marché Public</h1>
-                                    </p>
-                                </div>
-                                <a href="http://www.chiva-chpo.fr/accueil-chiva-2/marches-publics.html" class="mx-auto">
-                                    <input type="button" class="btn btn-primary boutonModal" name="Chiva " value="CHIVA">
-                                </a>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                               
                     <div class="mx-auto">
                         <button type="button" class="btn boutonRond" data-toggle="modal" data-target="#emploi">
                             <div class="boutonMarche">
@@ -342,14 +342,14 @@
                     </div>
                 </div>
             </div>
-            <div id="osa" class="col-md-4">
+            <div id="osa" class="col-lg-4">
                 <div class="container">
                     <ul class="nav nav-tabs tabula" role="tablist">
                         <li class="nav-item nav-soins">
                             <a class="nav-link active" data-toggle="tab" href="#1menu1">Offres de soins</a>
                         </li>
                         <li class="nav-item nav-soins">
-                            <a class="nav-link" data-toggle="tab" href="#1menu2">Annuaire</a>
+                            <a class="nav-link full" data-toggle="tab" href="#1menu2">Annuaire</a>
                         </li>
                     </ul>
                     <div class="tab-content">
@@ -365,12 +365,20 @@
          </li>
         </button>
       </h5>
-                                        </div>
+</div>
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+            <!-- ///////////////////////////////////////////////////////////////////////////// -->
+        <!-- ///////////////////////////////////////////////////////////////////////////// -->
+           <!-- ///////////////////////////////////////////////////////////////////////////// -->
+                                        
                                         <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
                                             <div class="card-body">
                                                 <ul class="list-group">
-                                                    <li class="list-group-item">Cancérologie (Oncologie)</li>
-                                                    
+                                                    <!-- <li class="list-group-item">Cancérologie (Oncologie)</li> -->
+                                                    <form method="post" action="#carte">
+                                                    <button class="toutlesboutons list-group-item" type="submit" value="'Cancérologie (oncologie)'"  name="boutton_cool">Cancérologie (Oncologie)</button>
+                                                    </form>
+
                                                 </ul>
                                             </div>
                                         </div>
@@ -391,14 +399,38 @@
                                             <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Anesthésie</li>
-                                                        <li class="list-group-item">Chirurgie ortho-traumatologique</li>
-                                                        <li class="list-group-item">Chirurgie dentaire, orale, stomatologie, odontologie</li>
-                                                        <li class="list-group-item">Chirurgie gynécologique</li>
-                                                        <li class="list-group-item">Chirurgie  viscérale</li>
-                                                        <li class="list-group-item">Ophtalmologie</li>
-                                                        <li class="list-group-item">ORL</li>
-                                                        <li class="list-group-item">Urologie</li>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Anesthésie'" class="list-group-item" name="boutton_cool">Anesthésie</button>
+                                                    </form>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Chirurgie ortho-traumatologique'" class="list-group-item" name="boutton_cool">Chirurgie ortho-traumatologique</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Chirurgie dentaire, orale, stomatologie, odontologie'" class="list-group-item" name="boutton_cool">Chirurgie dentaire, orale, stomatologie, odontologie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Chirurgie gynécologique'" class="list-group-item" name="boutton_cool">Chirurgie gynécologique</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Chirurgie  viscérale'" class="list-group-item" name="boutton_cool">Chirurgie  viscérale</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Ophtalmologie'" class="list-group-item" name="boutton_cool">Ophtalmologie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'ORL'" class="list-group-item" name="boutton_cool">ORL</button>
+                                                    </form>
+
+                                                       
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Urologie'" class="list-group-item" name="boutton_cool">Urologie</button>
+                                                    </form>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -421,11 +453,27 @@
                                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Consultation mémoire</li>
-                                                        <li class="list-group-item">Gériatrie</li>
-                                                        <li class="list-group-item">Unité psycho gériatrie </li>
-                                                        <li class="list-group-item">Unité de Soins de Longue Durée</li>
-                                                        <li class="list-group-item">Unité Cognitivo-comportementale</li>
+                                                        
+
+                                                         <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Consultation mémoire'" class="list-group-item" name="boutton_cool">Consultation mémoire</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Gériatrie'" class="list-group-item" name="boutton_cool">Gériatrie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité psycho gériatrie'" class="list-group-item" name="boutton_cool">Unité psycho gériatrie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité de Soins de Longue Durée'" class="list-group-item" name="boutton_cool">Unité de Soins de Longue Durée</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité Cognitivo-comportementale'" class="list-group-item" name="boutton_cool">Unité Cognitivo-comportementale</button>
+                                                    </form>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -447,10 +495,15 @@
                                             <div id="collapsefour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Centre périnatal de proximité</li>
-                                                        <li class="list-group-item">Obstétrique - Maternité</li>
-                                                        <li class="list-group-item">Centre périnatal de proximité</li>
-                                                        <li class="list-group-item">Obstétrique - Maternité</li>
+                                                       
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Centre périnatal de proximité'" class="list-group-item" name="boutton_cool">Centre périnatal de proximité</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Obstétrique - Maternité'" class="list-group-item" name="boutton_cool">Obstétrique - Maternité</button>
+                                                    </form>
+
                                                         
                                                     </ul>
                                                 </div>
@@ -473,22 +526,68 @@
                                             <div id="collapsefive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Consultation douleur chronique</li>
-                                                        <li class="list-group-item">Endocrinologie, diabète, maladies métaboliques</li>
-                                                        <li class="list-group-item">Gastro-entérologie</li>
-                                                        <li class="list-group-item">Gynécologie médicale</li>
-                                                        <li class="list-group-item">Hémodialyse</li>
-                                                        <li class="list-group-item">Médecine interne</li>
-                                                        <li class="list-group-item">Médecine polyvalente à orientation gériatrique</li>
-                                                        <li class="list-group-item">Médecine vasculaire</li>
-                                                        <li class="list-group-item">Médecine physique et de réadaptation</li>
-                                                        <li class="list-group-item">Néphrologie</li>
-                                                        <li class="list-group-item">Neurologie</li>
-                                                        <li class="list-group-item">Pneumologie</li>
-                                                        <li class="list-group-item">Soins intensifs respiratoires  et surveillance médicale continue</li>
-                                                        <li class="list-group-item">Soins palliatifs</li>
-                                                        <li class="list-group-item">Addictologie tabacologie</li>
-                                                        <li class="list-group-item">Cardiologie</li>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Consultation douleur chronique'" class="list-group-item" name="boutton_cool">Consultation douleur chronique</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Endocrinologie, diabète, maladies métaboliques'" class="list-group-item" name="boutton_cool">Endocrinologie, diabète, maladies métaboliques</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Gastro-entérologie'" class="list-group-item" name="boutton_cool">Gastro-entérologie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Gynécologie médicale'" class="list-group-item" name="boutton_cool">Gynécologie médicale</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Hémodialyse médicale'" class="list-group-item" name="boutton_cool">Hémodialyse</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Médecine interne'" class="list-group-item" name="boutton_cool">Médecine interne</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Médecine polyvalente à orientation gériatrique'" class="list-group-item" name="boutton_cool">Médecine polyvalente à orientation gériatrique</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Médecine vasculaire'" class="list-group-item" name="boutton_cool">Médecine vasculaire</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Médecine physique et de réadaptation'" class="list-group-item" name="boutton_cool">Médecine physique et de réadaptation</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Néphrologie'" class="list-group-item" name="boutton_cool">Néphrologie</button>
+                                                    </form>
+                                                        
+                                                         <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Neurologie'" class="list-group-item" name="boutton_cool">Neurologie</button>
+                                                    </form>
+                                                        
+                                                         <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Pneumologie'" class="list-group-item" name="boutton_cool">Pneumologie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Soins intensifs respiratoires  et surveillance médicale continue'" class="list-group-item" name="boutton_cool">Soins intensifs respiratoires  et surveillance médicale continue</button>
+                                                    </form>
+                                                       
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Soins palliatifs'" class="list-group-item" name="boutton_cool">Soins palliatifs</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Addictologie tabacologie'" class="list-group-item" name="boutton_cool">Addictologie tabacologie</button>
+                                                    </form>
+                                                    <button class="toutlesboutons" type="submit" value="'Cardiologie'" class="list-group-item" name="boutton_cool">Cardiologie</button>
+                                                    </form>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -510,9 +609,14 @@
                                             <div id="collapsesix" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Centre périnatal de proximité</li>
-                                                        <li class="list-group-item">Pédiatrie et néonatologie</li>
-                                                  
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Centre périnatal de proximité'" class="list-group-item" name="boutton_cool">Centre périnatal de proximité</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Pédiatrie et néonatologie'" class="list-group-item" name="boutton_cool">Pédiatrie et néonatologie</button>
+                                                    </form>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -534,14 +638,38 @@
                                             <div id="collapseseven" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Psychiatrie</li>
-                                                        <li class="list-group-item">Unités d’admission psychiatrique adultes</li>
-                                                        <li class="list-group-item">Unité psycho gériatrie </li>
-                                                        <li class="list-group-item">Unité de réadaptation psychiatrique</li>
-                                                        <li class="list-group-item">Urgences psychiatriques et de liaison</li>
-                                                        <li class="list-group-item">Unité Psychiatriques Soins Intensifs</li>
-                                                        <li class="list-group-item">Unité d’admission de Psychiatrie Infanto-juvénile</li>
-                                                        <li class="list-group-item">CMP et autres accueils </li>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Psychiatrie'" class="list-group-item" name="boutton_cool">Psychiatrie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unités d’admission psychiatrique adultes'" class="list-group-item" name="boutton_cool">Unités d’admission psychiatrique adultes</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité psycho gériatrie'" class="list-group-item" name="boutton_cool">Unité psycho gériatrie</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité de réadaptation psychiatrique'" class="list-group-item" name="boutton_cool">Unité de réadaptation psychiatrique</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Urgences psychiatriques et de liaison'" class="list-group-item" name="boutton_cool">Urgences psychiatriques et de liaison</button>
+                                                    </form>
+                                                       
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité Psychiatriques Soins Intensifs'" class="list-group-item" name="boutton_cool">Unité Psychiatriques Soins Intensifs</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité d’admission de Psychiatrie Infanto-juvénile'" class="list-group-item" name="boutton_cool">Unité d’admission de Psychiatrie Infanto-juvénile</button>
+                                                    </form>
+                                                       
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'CMP et autres accueils'" class="list-group-item" name="boutton_cool">CMP et autres accueils</button>
+                                                    </form>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -559,7 +687,10 @@
                                             <div id="collapseeight" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Soins de suite et de réadaptation</li>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Soins de suite et de réadaptation'" class="list-group-item" name="boutton_cool">Soins de suite et de réadaptation</button>
+                                                    </form>
                                                         
                                                     </ul>
                                                 </div>
@@ -581,7 +712,9 @@
                                             <div id="collapsenine" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Imagerie médicale</li>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Imagerie médicale'" class="list-group-item" name="boutton_cool">Imagerie médicale</button>
+                                                    </form>
                                                         
                                                     </ul>
                                                 </div>
@@ -601,14 +734,30 @@
                                             <div id="collapseten" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Pharmacie hospitalière</li>
-                                                        <li class="list-group-item">Réanimation et Soins continus</li>
-                                                        <li class="list-group-item">Unité d’Accueil des Victimes (UAV)</li>
-                                                        <li class="list-group-item">Biologie médicale</li>
-                                                        <li class="list-group-item">Dépistage, vaccinations, PAAS, CLAT</li>
-                                                        <li class="list-group-item">Hospitalisation à domicile</li>
-                                                        <li class="list-group-item">Hygiène hospitalière</li>
-                                                        <li class="list-group-item">Hygiène hospitalière</li>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Pharmacie hospitalière'" class="list-group-item" name="boutton_cool">Pharmacie hospitalière</button>
+                                                    </form>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Réanimation et Soins continus'" class="list-group-item" name="boutton_cool">Réanimation et Soins continus</button>
+                                                    </form>
+                                                        
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Unité d’Accueil des Victimes (UAV)'" class="list-group-item" name="boutton_cool">Unité d’Accueil des Victimes (UAV)</button>
+                                                    </form>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Biologie médicale'" class="list-group-item" name="boutton_cool">Biologie médicale</button>
+                                                    </form>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Dépistage, vaccinations, PAAS, CLAT'" class="list-group-item" name="boutton_cool">Dépistage, vaccinations, PAAS, CLAT</button>
+                                                    </form>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Hospitalisation à domicile'" class="list-group-item" name="boutton_cool">Hospitalisation à domicile</button>
+                                                    </form>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Hygiène hospitalière'" class="list-group-item" name="boutton_cool">Hygiène hospitalière</button>
+                                                    </form>
+                                                        
+
                                                     </ul>
                                                 </div>
                                             </div>
@@ -627,7 +776,9 @@
                                             <div id="collapseeleven" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                                                 <div class="card-body">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item">Urgences</li>
+                                                        <form method="post" action="#carte">
+                                                    <button class="toutlesboutons" type="submit" value="'Urgences'" class="list-group-item" name="boutton_cool">Urgences</button>
+                                                    </form>
                                                         
                                                     </ul>
                                                 </div>
@@ -641,10 +792,32 @@
                         </div>
                         <div id="1menu2" class="container tab-pane fade">
                             <br>
-                            <form class="form-inline" action="/action_page.php">
-                                <input class="form-control" type="text" placeholder="Recherche offres de soin">
-                                <button class="btn btn-basic" type="submit">Recherche</button>
+            
+
+
+
+   <form class="form-inline" action="/action_page.php">
+                                <select class="form-control" type="text" placeholder="Recherche offres de soin">
+                                <!-- <button class="btn btn-basic" type="submit">Recherche</button> -->
+
+                                <?php  
+                                    $dbconn = pg_connect("host=localhost port=5432 dbname=projetght user=admin password=admin");
+
+                                    $result = pg_query('SELECT nom_ods FROM ods');
+                                    while($donnees = pg_fetch_array($result)){?>
+                                       
+                                       <option value="">
+                                    <?php  
+                                        echo $donnees ["nom_ods"];
+                                       };
+                                     ?>
+                                    </option>
+
+                                
+                               </select>
                             </form>
+
+
                         </div>
                     </div>
                 </div>
@@ -652,16 +825,67 @@
             <div id="carte" class="col-md-6">
                 <div class="map">
                     <img class="map2" src="img/mapAriège.png">
-                    <a id="ico_saintLouis" data-toggle="collapse" href="#collapseExample" data-trigger="hover" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    <i class="fas fa-map-marker-alt"  title="Saint Louis"></i>
+
+     <!--                <a  data-toggle="collapse" href="#collapseExample" data-trigger="hover" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    
                   </a>
-                    <i class="fas fa-map-marker-alt" id="ico_foix" title="Foix"></i>
-                    <i class="fas fa-map-marker-alt" id="ico_lavelanet" title="Lavelanet"></i>
-                    <i class="fas fa-map-marker-alt" id="ico_pamiers" title="Pamiers"></i>
-                    <i class="fas fa-map-marker-alt" id="ico_stJeandeVerges" title="St Jean de Verges"></i>
-                    <div id="ico_stGirons">
-                        <i class="fas fa-map-marker-alt" title="St.Girons"></i>
+                    
+                    
+                    
+                    
+                    <div >
+                        
                     </div>
+              
+ -->
+
+
+
+                    
+                                        <?php 
+
+                        $selection=$_POST['boutton_cool'];
+
+                        $dbconn = pg_connect("host=localhost port=5432 dbname=projetght user=admin password=admin");
+
+                        $result = pg_query( 
+                            'SELECT nom_hop, nom_ods, nom_ville 
+                            FROM ofhovi 
+                            INNER JOIN ods ON ofhovi.id_ods = ods.id_ods 
+                            INNER JOIN ville ON ofhovi.id_ville = ville.id_ville 
+                            INNER JOIN hopitaux ON ofhovi.id_hop = hopitaux.id_hop 
+                            WHERE nom_ods = '.$selection.'');
+                        
+                        
+
+                            while($donnees = pg_fetch_array($result)){
+                        
+                     
+                           
+
+                            if (in_array("Pamiers", $donnees)) {
+                                echo '<i class="fas fa-map-marker-alt" id="ico_pamiers" title="Pamiers"></i>';
+                            }
+                            if (in_array("Lavelanet", $donnees)) {
+                                echo '<i class="fas fa-map-marker-alt" id="ico_lavelanet" title="Lavelanet"></i>';
+                            }
+                            if (in_array("Saint Jean de Verges", $donnees)) {
+                                echo '<i class="fas fa-map-marker-alt" id="ico_stJeandeVerges" title="St Jean de Verges"></i>';
+                            }
+                            if (in_array("Saint Girons", $donnees)) {
+                                echo '<i class="fas fa-map-marker-alt" title="St.Girons" id="ico_stGirons"></i>';
+                            }
+                            if (in_array("Foix", $donnees)) {
+                                echo '<i class="fas fa-map-marker-alt" id="ico_foix" title="Foix">';
+                            }
+                            if (in_array("Ax les Thermes", $donnees)) {
+                                echo '<i class="fas fa-map-marker-alt"  title="Saint Louis" title="Ax les Thermes" id="ico_saintLouis" ></i>';
+                            }
+                        }
+
+                      ?>
+
+                     
                 </div>
                 <div class="collapse" id="collapseExample">
                     <div class="card card-body">
@@ -671,32 +895,32 @@
             </div>
         </div>
     </div>
-               <footer>
+
+
+
+            </div>
+
+
+             <footer>
                 <div id="footer" class="container-fluid">
                     <button type="button" data-toggle="modal" data-target="#myModalfooter" class="btn btn-link">Mentions légales</button>
-                    <div class="modal fade" id="myModalfooter" role="dialog">
-                        <div class="modal-dialog">
+                    <div class="modal fade bd-example-modal-lg" id="myModalfooter" role="dialog">
+                        <div class="modal-dialog modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <h4 class="modal-title">Mentions légales</h4>
                                 </div>
                                 <div >
                                 </div><p class="modal-body text-left">
-                                Le centre hospitalier du val d’Ariège ci-après dénommé "l'Editeur du site" Le Studio Ogham, ci-après dénommé "Le Concepteur" Conditions d'utilisation Certaines pages du site contiennent : - Des documents PDF Pour lire ces documents, vous avez besoin du logiciel Acrobat Reader Télecharger Acrobat Reader (gratuit) Propriété
                                 <br>
-                                <br> Le présent site est la propriété de l'Editeur du site, dont le siège est situé à Foix. Il est mis à la disposition des utilisateurs sous réserve de leur acceptation inconditionnelle des conditions et des avertissements rappelés ci-dessous.
+                                <br> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.".
                                 <br>
-                                <br> e webmaster du site est Mme Isabelle Ferrer en qualité de représentant légal de l'Editeur. L’hébergeur du site est la société Systonic, société anonyme, dont le siège social est à Pessac (33).
+                                <br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                 <br>
-                                <br> Responsabilité
-                                <br>
-                                <br> L'Editeur du site met tout en œuvre pour assurer l'exactitude et la mise à jour de l'ensemble des informations fournies sur son site qui y est directement relié mais l'Editeur ne peut garantir que les informations qu’il contient sont complètes, précises, exactes, exhaustives et dépourvues de toute erreur. L'Editeur du site se réserve le droit de corriger ou de modifier, à tout moment et sans préavis, le contenu de ce site. L'Editeur du site décline toute responsabilité concernant les informations disponibles sur son « site » et l’utilisation qui peut être faite des informations contenues sur ce site ou obtenues en réponse à une question posée par le biais de ce site. En aucun cas l'Editeur ne pourra être tenu pour responsable des dommages de toute nature, directs ou indirects, qui résulterait de l’utilisation de ce site ou en relation avec ce site. De manière générale, l'Editeur du site décline toute responsabilité quant à l'utilisation que pourrait être faite de ce site. Toute tentative de transfert d’information vers un site tiers ou de modification des informations contenues sur ce site est interdite et peut entraîner des poursuites civiles ou pénales de la part de l'Editeur du site. L'Editeur du site ne pourra être tenu responsable de l'ensemble des hypertextes ou de tout autre élément informatique utilisé, directement ou indirectement, à partir du « site », l’existence d’un lien n’ayant pas pour effet de transférer la responsabilité à l'Editeur. l'Editeur du site ne garantit pas et ne prend aucun engagement concernant des sites tiers et ne sera pas responsable de leur contenu. Il est strictement interdit de créer un lien hypertexte renvoyant sur le site sans l'accord expresse de l'Editeur du site. L'Editeur du site ne peut pas garantir et ne garantit pas que le serveur accueillant le « site » est exempt de virus et que les fichiers accessibles par téléchargement sur ce site Web ou tout autre site tiers sont dépourvus de virus ou d’erreurs de fonctionnement. Dans la mesure où des virus peuvent être transmis via Internet, nous recommandons aux utilisateurs de prendre les mesures nécessaires afin de protéger leur ordinateur contre toute intrusion, contre tout problème technique qui pourrait endommager les composants de l'ordinateur de l'utilisateur ou des données qui pourraient y être stockées. En tout état de cause l'Editeur du site ou un de ses sous-traitants ne pourra être responsable d'un dommage quelconque pouvant se produire lors de la connexion et de la navigation sur le site. Protection des données Toutes les données et informations contenues sur ce site font l’objet d’une protection au titre du droit d’auteur et des droits de propriété intellectuelle. La reproduction totale ou partielle des documents du « site » est autorisée aux fins exclusives d'information pour un usage personnel et privé ; toute reproduction ou toute utilisation de copies réalisées à d'autres fins est expressément interdite et est susceptible de constituer une contrefaçon sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle. Les bases de données figurant sur ce site, dont l'Editeur du site est producteur, sont protégées par les dispositions de la loi du 1er juillet 1998 portant transposition dans le Code de la propriété intellectuelle de la directive européenne du 11 mars 1996 relative à la protection des bases de données. Aucune information personnelle n’est collectée à l’insu de l’utilisateur. Ces informations pourront également être transmises à d’autres sociétés du groupe, sauf si l’utilisateur manifeste son refus en cochant la case interdisant à l'Editeur du site de le faire. Les informations fournies par les utilisateurs devront être exactes, licites et ne pas nuire aux intérêts des tiers.
-                                <br>
-                                <br> Mention CNIL Le présent site a fait l’objet d’une déclaration auprès de la Commission Nationale de l’Informatique et des Libertés (CNIL).
-                                <br>
-                                <br> En application de la loi 78-17 du 6 janvier 1978, les utilisateurs disposent à tout moment d’un droit d'accès, de modification, de rectification et de suppression des données personnelles qui les concernent. Pour exercer ce droit, s’adresser : - par courrier à : Monsieur le Directeur chemin de Barrau, 900064 09017 FOIX Cedex - par courrier électronique à : direction@chi-val-ariege.fr Sauf mention contraire, les droits de copyright des documents et chacun des éléments créés pour ce « site » sont la propriété exclusive de l'Editeur du site.
-                                <br>
-                                <br> Toute reproduction totale ou partielle du contenu du site est donc prohibée, au sens de l’article L.713-2 du Code de la propriété intellectuelle. Les lois gouvernant ce site sont les lois françaises et les Tribunaux compétents sont les tribunaux français.
+                                <br>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."                                
+                               
+                                <br> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."                                
+                                <br"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                                 </p>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
@@ -705,7 +929,6 @@
                         </div>
                     </div>
             </footer>
-            </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

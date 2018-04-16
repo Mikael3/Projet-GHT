@@ -17,20 +17,20 @@ body, html{
 }
 
 .navigation, .navbar{
-	background-color: #4792b2 !important;
+	background-color: #0091ff !important;
 	height: 60px;
 }
 
 .titre{
 	padding-left: 25px;
 	color: white;
-	background-color: #4792b2;
+	background-color: #0091ff;
 	margin: 0px;
 }
 
 .h2g2{
 	font-size: 165%;
-	background-color: #4792b2;
+	background-color: #0091ff;
 	margin: 0px;
 	color: white;
 	padding-left: 250px;
@@ -48,10 +48,10 @@ body, html{
 }
 
 
-.navbtn{
+.navbtnperso{
 	width: 25%;
 	height: 50px;
-	background-color: #4792b2;
+	background-color: #0091ff;
 	border: none;
 	border-radius: 0px;
 	border-right: solid;
@@ -104,7 +104,7 @@ body, html{
 		display: none;
 	}
 	
-	.btn, .nabvtn{
+	.navbtnperso{
 		height: 30px;
 	}
 	
@@ -134,7 +134,7 @@ body, html{
 
 #annuaire,
 #recherche {
-    margin-right: 70%; margin-left: 5%;
+    margin-right: 70% margin-left: 5%;
 }
 
 
@@ -176,16 +176,6 @@ body, html{
 	font-size: 60px;
 }
 
-#menu2{
-	padding: 5px;
-}
-
-#menu1, #menu2{
-	margin: 0px;
-	border: solid;
-	border-width: 1px;
-	padding: 0px;
-}
 
 .tuile{
 	width: 100%;
@@ -315,20 +305,20 @@ html {
 
 .navigation,
 .navbar {
-    background-color: #4792b2 !important;
+    background-color: #0091ff !important;
     height: 60px;
 }
 
 .titre {
     padding-left: 25px;
     color: white;
-    background-color: #4792b2;
+    background-color: #0091ff;
     margin: 0px;
 }
 
 .h2g2 {
     font-size: 165%;
-    background-color: #4792b2;
+    background-color: #0091ff;
     margin: 0px;
     color: white;
     padding-left: 250px;
@@ -346,10 +336,10 @@ html {
 }
 
 
-.navbtn {
+.navbtnperso {
     width: 25%;
     height: 50px;
-    background-color: #4792b2;
+    background-color: #0091ff;
     border: none;
     border-radius: 0px;
     border-right: solid;
@@ -363,6 +353,21 @@ html {
 
 .navfull {
     width: 200%;
+}
+
+    .visibleOnTab{
+		display: none;
+	}
+
+	.visibleOnDesc{
+		display: block;
+	}
+.navBis{
+
+}
+
+.full{
+	height: 100%;
 }
 
 @media (max-width: 990px) {
@@ -386,6 +391,20 @@ html {
     .navfull {
         width: 100%;
     }
+
+    .visibleOnTab{
+		display: block;
+	}
+
+	.visibleOnDesc{
+		display: none;
+	}
+
+    .toutlesboutons{
+    	font-size: 10px;
+    	background-color: red;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -403,10 +422,12 @@ html {
         display: none;
     }
 
-    .btn,
-    .nabvtn {
+    
+    .navbtnperso {
         height: 30px;
     }
+
+
 }
 
 .row {
@@ -455,7 +476,7 @@ html {
 
 #annuaire,
 #recherche {
-    margin-right: 70%; margin-left: 5%;
+    margin-right: 70% margin-left: 5%;
 }
 
 
@@ -495,7 +516,7 @@ html {
 
 #annuaire,
 #recherche {
-    margin-right: 70%; margin-left: 5%;
+    margin-right: 70% margin-left: 5%;
 }
 
 #osa {
@@ -532,7 +553,169 @@ html {
 	border: none;
 }
 
-.mention{
-    float: right;
-    cursor: pointer;
+.boutonParent{
+	height: 40px;
 }
+
+/*.pictoParent{
+	height: 40px;
+	width: 40px;
+	font-size: 40px;
+	vertical-align:middle;
+	background-color: white;
+	color: #0091ff;
+	border-radius: 100%;
+	border: solid;
+	border-color: white;
+	border-width: 5px;
+}*/
+
+.pictoParent{
+	font-size: 35px;
+	height: 40px;
+	vertical-align:middle;
+	color: #0091ff;
+	
+	fill: #0091ff;
+	white-space: nowrap;
+}
+
+.rondBlanc{
+	height: 50px;
+	width: 50px;
+	vertical-align:middle;
+	background-color: white;
+	border-radius: 100%;
+	border: solid;
+	border-color: white;
+	border-width: 5px;
+}
+
+.tiles{
+	padding: 2px;
+	text-align: left;
+	font-size: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.pad{
+	padding-top: 7px;	
+}
+
+
+.card-header{
+	background-color: white;
+}
+
+.panel-heading{
+	padding: 5px;
+}
+
+.nav-link, .nav-soins{
+	
+	color: white;
+	background-color: #0091ff;
+	border-radius: 0px !important;
+	outline:0; 
+	border: solid;
+	border-color:  #0091ff;
+}
+
+.nav-soins{
+	width: 48%;
+	margin: 1%;
+	text-align: center;
+	font-size: 20px;
+	background-color: white;
+	outline:0; 
+}
+
+.tabula{
+	width: 100%;
+}
+
+.card-body{
+	padding-top: 0px;
+}
+
+    ul.nav-pills {
+        position: absolute;
+        margin-top: -40px;
+    }
+
+    .btn-outline-info:hover {
+        color: #ffffff;
+        background-color: #fefefe;
+        border-color: #17a2b8;
+    }
+
+    #home,
+    #menu1,
+    #menu2,
+    #menu3 {
+        border: none;
+    }
+
+   
+
+    #footer {
+    	text-align: right;
+    }
+
+    .nav2{
+    	width: 24%;
+    	white-space: nowrap;
+    }
+
+	.nav3{
+    	width: 4%;
+    }
+
+    .text-left{
+    	text-align: left;
+    }
+
+
+.carou{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #0091ff;
+	color: white;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.carouin{
+	display: flex;
+	flex-direction: row;
+	padding-left: 50px;
+}
+
+.carousel-control-prev, .carousel-control-next{
+	height: 40px;
+	width: 40px;
+	margin-top: 100px;
+	border-radius: 100%;
+}
+
+.caroutxt{
+	padding: 15px;
+	padding-right: 50px;
+}
+
+.toutlesboutons{
+	background-color: #0091ff;
+	width: 100%;
+	border: none;
+	margin-bottom: 5px;
+	color: white;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
+
+
